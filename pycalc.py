@@ -1,9 +1,11 @@
 import sys
 
 # Lecture des paramètres
-nbr1 = int(sys.argv[1])
+nbr1 = float(sys.argv[1])
 op = sys.argv[2]
-nbr2 = int(sys.argv[3])
+nbr2 = float(sys.argv[3])
 
 def calculatrice(nbr1, op, nbr2):
-    pass
+    if op == '+' :
+        return nbr1 + nbr2
+    return None
