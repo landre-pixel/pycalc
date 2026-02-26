@@ -15,3 +15,5 @@ def calculatrice(nbr1, op, nbr2):
     elif op == '/' :
         return nbr1 / nbr2
     return None
+
+print(calculatrice(nbr1,op,nbr2))
